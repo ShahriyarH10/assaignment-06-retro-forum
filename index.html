@@ -20,11 +20,19 @@
             <div>
                 <h1 class="text-2xl font-bold">ProHero</h1>
             </div>
-            <div class="flex flex-row gap-6">
-                <img src="images/home.svg">
-                <img src="images/pen.svg">
-                <img src="images/addFriend.svg" alt="">
-                <img src="images/flag.svg" alt="">
+            <div class="flex flex-row gap-3">
+                <div class="tooltip" data-tip="home">
+                    <button class="btn"><img src="images/home.svg"></button>
+                </div>
+                <div class="tooltip" data-tip="pen">
+                    <button class="btn"><img src="images/pen.svg"></button>
+                </div>
+                <div class="tooltip" data-tip="Add Member">
+                    <button class="btn"><img src="images/addFriend.svg" alt=""></button>
+                </div>
+                <div class="tooltip" data-tip="Flag">
+                    <button class="btn"><img src="images/flag.svg" alt=""></button>
+                </div>
                 <button class="btn btn-primary rounded-full py-3 px-8">Sign in</button>
             </div>
         </nav>
@@ -67,7 +75,9 @@
         <section class="my-10 container mx-auto bg-[#12132D] text-white rounded-3xl flex flex-row justify-around items-center gap-10 p-20">
             <div>
                 <h1 class="text-5xl font-bold">Join Our Forum</h1>
+                <br>
                 <p>Share your favorite opinion and win and wp forum coffee mug! Yes, you can run unit tests and view the results directly within the app.</p>
+                <br>
                 <button class="bg-[#797DFC] rounded-3xl py-2 px-6">Registered Now</button>
             </div>
             <div>
@@ -76,8 +86,17 @@
         </section>
     </main>
 
-    <footer>
-
+    <footer class="bg-[#c9c9d4] text-center py-20 space-y-4">
+        <h3 class="text-3xl font-bold">ProHero</h3>
+        <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC</p>
+        <div class="flex flex-row gap-10 justify-center">
+            <a href="https://twitter.com/"><img src="images/twitter.svg" alt=""></a>
+            <a href="https://facebook.com/"><img src="images/facebook.svg" alt=""></a>
+            <a href="https://instagram.com/"><img src="images/instagram.svg" alt=""></a>
+            <a href="https://github.com/"><img src="images/github.svg" alt=""></a>
+        </div>
+        <hr>
+        <p><small>2017, All Rights Reserved.</small></p>
     </footer>
 </body>
 </html>
