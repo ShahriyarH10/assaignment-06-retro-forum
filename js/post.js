@@ -12,7 +12,7 @@ function displayPosts(posts){
     for(const post of posts) {
         const postDiv = document.createElement('div');
         postDiv.innerHTML =`
-            <h4> ${post.id} </h4>
+            <h4>dfghdfsg ${post.id} </h4>
             <h5> ${post.category} </h5>
             <img src="${post.image}" alt="Post Image">
             <p> ${post.isActive} </p>
