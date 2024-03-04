@@ -15,19 +15,51 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <nav>
+    <header class="my-10 container mx-auto">
+        <nav class="flex flex-row justify-between">
             <div>
                 <h1 class="text-2xl font-bold">ReTro</h1>
             </div>
-            <div>
+            <div class="flex flex-row gap-6">
                 <img src="images/home.svg">
                 <img src="images/pen.svg">
                 <img src="images/addFriend.svg" alt="">
                 <img src="images/flag.svg" alt="">
-                <button class="btn btn-primary"></button>
+                <button class="btn btn-primary rounded-full py-3 px-8">Sign in</button>
             </div>
         </nav>
+
+        <!-- Banner Section -->
+        <section class="my-10 container mx-auto bg-[#12132D] text-white rounded-3xl flex flex-row justify-evenly items-center gap-10 bg-no-repeat bg-[url('images/bgbanner.png')] bg-bottom p-40">
+            <div>
+                <h1 class="text-6xl font-bold">Welcome to the
+                    <br>
+                    <span class="text-[#797DFC]">ReTro </span>Forum
+                </h1>
+                <br>
+                <p>Share your favorite opinion and win and wp forum coffee mug!</p>
+                <br>
+                <label class="input flex items-center gap-2 rounded-3xl">
+                    <input type="text" class="grow text-black" placeholder="Search here anything" />
+                    <botton class="btn bg-[#797DFC] rounded-3xl">Search</botton>
+                </label>
+            </div>
+            <div class="bg-white text-black rounded-2xl flex flex-row gap-10 items-center px-6 py-8 text-3xl">
+                <div>
+                    <p>Registered Uses</p>
+                    <p>Forum</p>
+                    <p>Topics</p>
+                    <p>Replies</p>
+                </div>
+                <div>
+                    <p>01</p>
+                    <p>05</p>
+                    <p>01</p>
+                    <p>01</p>
+                </div>
+                
+            </div>
+        </section>
     </header>
 
     <main>
